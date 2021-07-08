@@ -1,0 +1,10 @@
+.error-subscription-payu-latam {
+    background-color: #ff0000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.error-subscription-payu-latam .message {
+    color: #ffffff;
+    font-weight: bold;
+}
