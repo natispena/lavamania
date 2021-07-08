@@ -78,8 +78,8 @@ $table_prefix = 'wp_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
-define( 'WP_HOME', 'http://localhost/lavamania' );
-define( 'WP_SITEURL', 'http://localhost/lavamania' );
+define( 'WP_HOME', 'http://localhost/lavamania-1' );
+define( 'WP_SITEURL', 'http://localhost/lavamania-1' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
