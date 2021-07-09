@@ -13,6 +13,6 @@ function mfp_Add_My_Admin_Link()
         'Pagina Administrador', // Title of the page
         'ADMINISTRADOR', // Text to show on the menu link
         'manage_options', // Capability requirement to see the link
-        'includes/page.php' // The 'slug' - file to display when clicking the link
+        'includes/a-page.php' // The 'slug' - file to display when clicking the link
     );
 }?>
