@@ -43,6 +43,16 @@ if ( is_admin() ) {
 // Compatibility.
 require_once WOOSTIFY_THEME_DIR . 'inc/compatibility/class-woostify-divi-builder.php';
 
+add_action('elementor_pro/forms/new_redord', function($record, $ajax_handler){
+	$raw_fields =$record->get('fields');
+	$fields=[];
+	foreach($raw_fields as $id=>$field){
+		$fields [$id] =$field['value'];
+	}
+	global $lavamania;
+	$output['success'] = $lavamania-> insert ('servicios', array('nombre'=>$fields['nombre'],'descripcion'=>$fields['descripcion'],'valor'=>$fields['valor'],'id_vehiculo'=>$fields['tipo']));
+$ajax_handler->add_response_data( true, $output);
+},10 ,2);
 /**
  * Note: Do not add any custom code here. Please use a custom plugin so that your customizations aren't lost during updates.
  */
