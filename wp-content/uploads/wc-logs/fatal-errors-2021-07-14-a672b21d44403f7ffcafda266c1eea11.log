@@ -70,6 +70,7 @@ Stack trace:
 #3 {main}
   thrown en C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php en la línea 162
 
+<<<<<<< HEAD
 2021-07-14T10:46:17+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\lavamania\wp-content\themes\woostify\buscador_placa.php en la línea 35
 
 2021-07-14T11:37:02+00:00 CRITICAL Uncaught Error: Call to undefined function mysql_query() in C:\xampp\htdocs\lavamania\wp-content\themes\woostify\buscador_placa.php:55
@@ -86,3 +87,5 @@ Stack trace:
 
 2021-07-14T11:42:34+00:00 CRITICAL syntax error, unexpected '$consulta_mysql' (T_VARIABLE) en C:\xampp\htdocs\lavamania\wp-content\themes\woostify\buscador_placa.php en la línea 55
 
+=======
+>>>>>>> origin/main

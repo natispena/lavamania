@@ -91,7 +91,7 @@ $.get("/api/read.php", function(data){document.getElementById("valores").innerHt
 
 			<div class="elementor-form-fields-wrapper elementor-labels-above">
 						<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-33 elementor-field-required elementor-mark-required">
-					<label for="form-field-vehiculo" class="elementor-field-label">Vehiculo</label><select size="1" type="number" name="vehiculo_id" id="vehiculo_id" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Vehiculo" required="required" aria-required="true">
+					<label for="form-field-vehiculo" class="elementor-field-label">Vehiculo</label><select size="1" type="number" name="vehiculo_id" id="vehiculo_id" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Vehiculo"  >
 					    <option value="0">Tipo:</option>
 						<?php
 						     $query = $mysqli -> query ("SELECT * FROM vehiculos");
@@ -103,7 +103,7 @@ $.get("/api/read.php", function(data){document.getElementById("valores").innerHt
 					</div>
 
 					    <div class="elementor-field-type-servicio elementor-field-group elementor-column elementor-field-group-servicio elementor-col-33 elementor-field-required elementor-mark-required">
-					<label for="form-field-servicio" class="elementor-field-label">Servicio</label><select size="1" type="number" name="servicio_id" id="servicio_id" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="servicio" required="required" aria-required="true">
+					<label for="form-field-servicio" class="elementor-field-label">Servicio</label><select size="1" type="number" name="servicio_id" id="servicio_id" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="servicio"  >
 					<option value="0">Nombre:</option>
 						<?php
 						     $query = $mysqli -> query ("SELECT * FROM servicios");
