@@ -10,6 +10,7 @@ add_action( 'admin_menu', 'mfp_Add_My_Admin_Link' );
 function mfp_Add_My_Admin_Link()
 {
       add_menu_page(
+
         'Pagina Administrador', // Title of the page
         'ADMINISTRADOR', // Text to show on the menu link
         'manage_options', // Capability requirement to see the link
