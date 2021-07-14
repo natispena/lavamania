@@ -1,0 +1,6 @@
+2021-07-13T13:44:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\vendor\automattic\jetpack-constants\src\class-constants.php en la línea 25
+
+2021-07-13T22:07:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\lavamania\wp-includes\class-wp-theme.php en la línea 1203
+
+2021-07-13T22:08:47+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\lavamania\wp-includes\Requests\Transport\cURL.php en la línea 441
+

@@ -1,0 +1,72 @@
+2021-07-14T04:50:35+00:00 CRITICAL Uncaught Error: Class 'lavamania' not found in C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php:6
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php en la línea 6
+
+2021-07-14T04:50:58+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php:6
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php en la línea 6
+
+2021-07-14T04:50:59+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php:6
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php en la línea 6
+
+2021-07-14T04:51:09+00:00 CRITICAL Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php:6
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php en la línea 6
+
+2021-07-14T04:51:44+00:00 CRITICAL Uncaught Error: Class 'lavamania' not found in C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php:6
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php en la línea 6
+
+2021-07-14T09:29:44+00:00 CRITICAL Uncaught Error: Call to undefined function mysql_querty() in C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php:30
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php en la línea 30
+
+2021-07-14T09:30:23+00:00 CRITICAL Uncaught Error: Call to undefined function mysqli_querty() in C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php:30
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php en la línea 30
+
+2021-07-14T09:31:08+00:00 CRITICAL Uncaught Error: Call to undefined function mysqli_querty() in C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php:30
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php en la línea 30
+
+2021-07-14T09:35:32+00:00 CRITICAL Uncaught Error: Call to undefined function mysql_error() in C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php:162
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_valor.php en la línea 162
+

@@ -1,0 +1,4 @@
+2021-07-11T15:44:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_TimezoneHelper.php en la línea 6
+
+2021-07-11T15:45:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\lavamania\wp-includes\Requests\Transport\cURL.php en la línea 163
+
