@@ -85,30 +85,30 @@ $.get("/api/read.php", function(data){document.getElementById("valores").innerHt
 					<form class="elementor-form" method="post" name="New Form">
 			<input type="hidden" name="post_id" value="161"/>
 			<input type="hidden" name="form_id" value="5fd78cc"/>
-			<input type="hidden" name="referer_title" value="prueba" />
+			<input type="hidden" name="referer_title" value="crudValor" />
 
 							<input type="hidden" name="queried_id" value="161"/>
-			
+
 			<div class="elementor-form-fields-wrapper elementor-labels-above">
 						<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-33 elementor-field-required elementor-mark-required">
-					<label for="form-field-vehiculo" class="elementor-field-label">Vehiculo</label><select size="1" type="text" name="vehiculo_id" id="vehiculo_id" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Vehiculo" required="required" aria-required="true">
+					<label for="form-field-vehiculo" class="elementor-field-label">Vehiculo</label><select size="1" type="number" name="vehiculo_id" id="vehiculo_id" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Vehiculo" required="required" aria-required="true">
 					    <option value="0">Tipo:</option>
 						<?php
 						     $query = $mysqli -> query ("SELECT * FROM vehiculos");
-							 while ($vehiculo_id = mysqli_fetch_array($query)) {
-								echo '<option value="'.$vehiculo_id[id].'">'.$vehiculo_id[nombre].'</option>';
+							 while ($vehiculo= mysqli_fetch_array($query)) {
+								echo '<option value="'.$vehiculo[id].'">'.$vehiculo[nombre].'</option>';
 							}
 						?>
 					</select>
 					</div>
-     
+
 					    <div class="elementor-field-type-servicio elementor-field-group elementor-column elementor-field-group-servicio elementor-col-33 elementor-field-required elementor-mark-required">
-					<label for="form-field-servicio" class="elementor-field-label">Servicio</label><select size="1" name="servicio_id" id="servicio_id" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="servicio" required="required" aria-required="true">
+					<label for="form-field-servicio" class="elementor-field-label">Servicio</label><select size="1" type="number" name="servicio_id" id="servicio_id" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="servicio" required="required" aria-required="true">
 					<option value="0">Nombre:</option>
 						<?php
 						     $query = $mysqli -> query ("SELECT * FROM servicios");
-							 while ($servicio_id = mysqli_fetch_array($query)) {
-								echo '<option value="'.$servicio_id[id].'">'.$servicio_id[nombre].'</option>';
+							 while ($servicio = mysqli_fetch_array($query)) {
+								echo '<option value="'.$servicio[id].'">'.$servicio[nombre].'</option>';
 							}
 						?>
 					</select>
