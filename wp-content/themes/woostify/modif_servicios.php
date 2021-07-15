@@ -1,12 +1,24 @@
 <?php
 /**
- * Template Name: crud servicios
+ * Template Name: modif servicios
  * @package woostify
 
 
 */
 $mysqli = new mysqli('localhost', 'root','', 'lavamania');
+$consulta=consultaServicios($_GET['id']);
 
+function consultaServicios($id_ser){
+	$sentencia="SELECT * FORM servicios WhERE id= '".$id_ser."' ";
+	$result=mysqli_query($mysqli, $sentencia);
+	$mostrar=mysqli_fetch_array($result);
+	return [
+		$mostrar['id'],
+		$mostrar['nombre'],
+		$mostrar['descripcion'],
+	];
+
+}
 get_header();
 ?>
 <section class="elementor-section elementor-top-section elementor-element elementor-element-36db429 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="36db429" data-element_type="section">
@@ -39,67 +51,6 @@ get_header();
 		</div>
 							</div>
 		</section>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1.jquery.min.js"></script>
-<script>
-jQuery(document).on('submit_success', function(event, response){read();});
-function readd(){
-$.get("/api/read.php", function(data){document.getElementById("servicios").innerHtml =data;
-});
-}
-</script>
-<table id='servicios'>
-<tr>
-	<td>id</td>
-	<td>nombre</td>
-	<td>descripcion</td>
-	<td>Borrar</td>
-	<td>Editar</td>
-</tr>
-<?php
-    
-    //mostrar tabla con los datos
-    $sql="SELECT * FROM servicios";
-	$result= mysqli_query($mysqli, $sql);
-	while($mostrar=mysqli_fetch_array($result)){
-?>
-<tr>
-    <td><?php echo $mostrar['id']?></td>
-    <td><?php echo $mostrar['nombre']?></td>
-    <td><?php echo $mostrar['descripcion']?></td>
-	<td><div class="elementor-element elementor-element-28ba169 elementor-button-danger elementor-widget elementor-widget-button" data-id="28ba169" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="#" class="elementor-button-link elementor-button elementor-size-xs" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-icon elementor-align-icon-left">
-				<i aria-hidden="true" class="far fa-trash-alt"></i>			</span>
-						<span class="elementor-button-text"></span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div></td>
-	<td><div class="elementor-element elementor-element-cd82676 elementor-button-info elementor-align-center elementor-widget elementor-widget-button" data-id="cd82676" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href='http://localhost/lavamania/modificar-servicios?id=".$mostrar.[id]"' class="elementor-button-link elementor-button elementor-size-xs" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-icon elementor-align-icon-right">
-				<i aria-hidden="true" class="far fa-edit"></i>			</span>
-						<span class="elementor-button-text"></span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-
-	</tr>
-
-<?php
-	}  
-?>
-</table>
-
 <div id="content" class="site-content" tabindex="-1">
 		<div class="woostify-container">		<div id="primary" class="content-area">
 			<main id="main" class="site-main">
@@ -143,7 +94,7 @@ $.get("/api/read.php", function(data){document.getElementById("servicios").inner
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-aa61263 elementor-button-align-end elementor-widget elementor-widget-form" data-id="aa61263" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;50&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
 				<div class="elementor-widget-container">
-					<form class="elementor-form" method="post" name="servicios" style="opacity: 1;">
+					<form class="elementor-form" action="modif_servicios.php" name="servicios" style="opacity: 1;">
 			<input type="hidden" name="post_id" value="111">
 			<input type="hidden" name="form_id" value="aa61263">
 			<input type="hidden" name="referer_title" value="Crud">
@@ -152,9 +103,10 @@ $.get("/api/read.php", function(data){document.getElementById("servicios").inner
 			
 			<div class="elementor-form-fields-wrapper elementor-labels-above">
 								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-nombre elementor-col-50 elementor-field-required elementor-mark-required">
-					<label for="form-field-nombre" class="elementor-field-label">Nombre</label><input size="1" type="text" name="nombre" id="nombre" class="elementor-field elementor-size-xs  elementor-field-textual" placeholder="Nombre" required="required" aria-required="true" aria-invalid="false">				</div>
+								<label for="form-field-nombre" class="elementor-field-label"><? echo $mostrar[0]?></label>
+					<label for="form-field-nombre" class="elementor-field-label">Nombre</label><input size="1" type="text" name="nombre" id="nombre" class="elementor-field elementor-size-xs  elementor-field-textual"value="<? echo $mostrar[1]?>"required="required" aria-required="true" aria-invalid="false">				</div>
 								<div class="elementor-field-type-number elementor-field-group elementor-column elementor-field-group-valor elementor-col-50 elementor-field-required elementor-mark-required">
-					<label for="form-field-descripcion" class="elementor-field-label">Descripcion</label><textarea class="elementor-field-textual elementor-field  elementor-size-xs" name="descripcion" id="descripcion" rows="4" placeholder="Descripcion" required="required" aria-required="true" aria-invalid="false"></textarea>				</div>
+					<label for="form-field-descripcion" class="elementor-field-label">Descripcion</label><textarea class="elementor-field-textual elementor-field  elementor-size-xs" name="descripcion" id="descripcion" rows="4" value="<? echo $mostrar[2]?>"  required="required" aria-required="true" aria-invalid="false"></textarea>				</div>
 								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-50 e-form__buttons">
 					<button type="submit" class="elementor-button elementor-size-sm" aria-invalid="false" name="insert">
 						<span>
@@ -179,26 +131,6 @@ $.get("/api/read.php", function(data){document.getElementById("servicios").inner
 	</div>		</div>
 
 <?php
-
-if(isset($_POST['insert'])){
-
-    global $wpdb;
-    $n=$_POST['nombre'];
-    $d=$_POST['descripcion'];
-    $sql= $wpdb->insert(
-        'servicios',
-        array(
-            'nombre'=>$n,
-            'descripcion'=>$d,
-        )
-    );
-
-    if($sql == true){
-        echo '<script>alert("GUARDADO")</script>';
-    }else{
-        echo '<script>alert("No se Guardo")</script>';
-    }
-}
 
 get_footer();
 ?>
