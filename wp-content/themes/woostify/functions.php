@@ -44,6 +44,8 @@ if ( is_admin() ) {
 require_once WOOSTIFY_THEME_DIR . 'inc/compatibility/class-woostify-divi-builder.php';
 
 
+//menu
+
 
 /**
  * Note: Do not add any custom code here. Please use a custom plugin so that your customizations aren't lost during updates.

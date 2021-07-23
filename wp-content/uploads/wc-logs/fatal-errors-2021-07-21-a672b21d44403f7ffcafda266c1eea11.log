@@ -1,0 +1,4 @@
+2021-07-21T20:07:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\Routes\ProductTags.php en la línea 9
+
+2021-07-21T20:08:42+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\lavamania\wp-includes\pomo\mo.php en la línea 280
+
