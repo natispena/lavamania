@@ -1,0 +1,76 @@
+2021-07-27T21:03:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-post-types.php en la línea 12
+
+2021-07-27T21:03:53+00:00 CRITICAL Uncaught Error: Call to undefined function wcs_get_subscriptions() in C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php:174
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(292): Subscription_Payu_Latam_SPL_Plugin->update_status_subscriptions()
+#1 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\lavamania\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lavamania\wp-cron.php(138): do_action_ref_array('subscription_pa...', Array)
+#4 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php en la línea 174
+
+2021-07-27T21:06:01+00:00 CRITICAL Uncaught Error: Class 'WC_Subscriptions_Cart' not found in C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-gateway-subscription-payu-latam.php:162
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(292): WC_Payment_Subscription_Payu_Latam_SPL->disable_non_subscription(Array)
+#1 C:\xampp\htdocs\lavamania\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\OnboardingPayments.php(38): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\NoteTraits.php(67): Automattic\WooCommerce\Admin\Notes\OnboardingPayments::get_note()
+#5 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\packages\woocommerce-admin en C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-gateway-subscription-payu-latam.php en la línea 162
+
+2021-07-27T21:28:40+00:00 CRITICAL Uncaught Error: Call to a member function insert() on null in C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_membresias.php:212
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_membresias.php en la línea 212
+
+2021-07-27T21:43:36+00:00 CRITICAL Uncaught Error: Call to undefined function wcs_get_subscriptions() in C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php:174
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(292): Subscription_Payu_Latam_SPL_Plugin->update_status_subscriptions()
+#1 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\lavamania\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lavamania\wp-cron.php(138): do_action_ref_array('subscription_pa...', Array)
+#4 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php en la línea 174
+
+2021-07-27T22:27:54+00:00 CRITICAL syntax error, unexpected '}', expecting end of file en C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_membresias.php en la línea 231
+
+2021-07-27T22:30:09+00:00 CRITICAL Object of class wpdb could not be converted to string en C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_membresias.php en la línea 212
+
+2021-07-27T23:10:30+00:00 CRITICAL Uncaught Error: Call to undefined function get_menu() in C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_membresias.php:9
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_membresias.php en la línea 9
+
+2021-07-27T23:10:31+00:00 CRITICAL Uncaught Error: Call to undefined function wcs_get_subscriptions() in C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php:174
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(292): Subscription_Payu_Latam_SPL_Plugin->update_status_subscriptions()
+#1 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\lavamania\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lavamania\wp-cron.php(138): do_action_ref_array('subscription_pa...', Array)
+#4 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php en la línea 174
+
+2021-07-27T23:19:35+00:00 CRITICAL Uncaught Error: Call to undefined function wp_menu() in C:\xampp\htdocs\lavamania\wp-content\themes\woostify\menu.php:9
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-content\themes\woostify\crud_membresias.php(11): include()
+#1 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\woostify\menu.php en la línea 9
+
+2021-07-27T23:42:23+00:00 CRITICAL Uncaught Error: Call to undefined function wcs_get_subscriptions() in C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php:174
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(292): Subscription_Payu_Latam_SPL_Plugin->update_status_subscriptions()
+#1 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\lavamania\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lavamania\wp-cron.php(138): do_action_ref_array('subscription_pa...', Array)
+#4 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php en la línea 174
+
