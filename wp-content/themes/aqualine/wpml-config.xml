@@ -1,0 +1,9 @@
+<wpml-config>
+    <admin-texts>
+        <key name="fw_theme_settings_options:aqualine">
+            <key name="social-header" />            
+            <key name="go-top-text" />            
+            <key name="copyrights" />            
+        </key>
+    </admin-texts>
+</wpml-config>

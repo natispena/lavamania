@@ -29,7 +29,7 @@ $.get("/api/read.php", function(data){document.getElementById("valores").innerHt
 	foreach($valor as $mostrar){
 ?>
 <tr>
-    <td><?php echo $mostrar->idid;?></td>
+    <td><?php echo $mostrar->id;?></td>
     <td><?php echo $mostrar->vehiculo_id;?></td>
     <td><?php echo $mostrar->servicio_id;?></td>
     <td><?php echo $mostrar->valor;?></td>

@@ -1,0 +1,924 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-12-25 23:18+0200\n"
+"PO-Revision-Date: 2017-06-19 17:54+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: config.php:13
+msgid "Pending"
+msgstr ""
+
+#: config.php:14
+msgid "Processing"
+msgstr ""
+
+#: config.php:15
+msgid "Completed"
+msgstr ""
+
+#: config.php:16
+msgid "Canceled"
+msgstr ""
+
+#: inc/functions.php:234
+msgid "Step Header"
+msgstr ""
+
+#: inc/functions.php:238
+msgid "Header"
+msgstr ""
+
+#: inc/functions.php:242 post_types/services.php:66
+msgid "Description"
+msgstr ""
+
+#: inc/functions.php:246
+msgid "Background Color"
+msgstr ""
+
+#: inc/functions.php:250 inc/functions.php:273
+msgid "White"
+msgstr ""
+
+#: inc/functions.php:251 inc/functions.php:274
+msgid "Gray"
+msgstr ""
+
+#: inc/functions.php:252 inc/functions.php:275
+msgid "Black"
+msgstr ""
+
+#: inc/functions.php:256
+msgid "Background Image"
+msgstr ""
+
+#: inc/functions.php:260
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/functions.php:263
+msgid "No Repeat"
+msgstr ""
+
+#: inc/functions.php:264
+msgid "Cover"
+msgstr ""
+
+#: inc/functions.php:265
+msgid "Repeat"
+msgstr ""
+
+#: inc/functions.php:269
+msgid "Bottom Bulb"
+msgstr ""
+
+#: inc/functions.php:272
+msgid "Disabled"
+msgstr ""
+
+#: inc/functions.php:404
+msgid "Additional Services"
+msgstr ""
+
+#: lt-booking.php:22
+msgid "LT-Booking plugin requires the Unyson plugin installed and activated!"
+msgstr ""
+
+#: post_types/booking.php:7 post_types/booking.php:16
+msgid "Bookings"
+msgstr ""
+
+#: post_types/booking.php:8 post_types/booking.php:10
+msgid "Booking"
+msgstr ""
+
+#: post_types/booking.php:9
+msgid "Car Washing"
+msgstr ""
+
+#: post_types/booking.php:11 post_types/cars.php:10 post_types/points.php:10
+#: post_types/services.php:10 post_types/tariffs.php:10
+msgid "Add New"
+msgstr ""
+
+#: post_types/booking.php:12
+msgid "Add New Booking"
+msgstr ""
+
+#: post_types/booking.php:13
+msgid "New Booking"
+msgstr ""
+
+#: post_types/booking.php:14
+msgid "Edit Booking"
+msgstr ""
+
+#: post_types/booking.php:15
+msgid "View Booking"
+msgstr ""
+
+#: post_types/booking.php:17
+msgid "Search Bookings"
+msgstr ""
+
+#: post_types/booking.php:18
+msgid "Parent Booking:"
+msgstr ""
+
+#: post_types/booking.php:19
+msgid "No bookings found."
+msgstr ""
+
+#: post_types/booking.php:20
+msgid "No bookings found in Trash."
+msgstr ""
+
+#: post_types/booking.php:58 post_types/booking.php:139 post_types/points.php:7
+#: post_types/points.php:9
+msgid "Point"
+msgstr ""
+
+#: post_types/booking.php:63 post_types/booking.php:142
+#: post_types/points.php:540
+msgid "Name"
+msgstr ""
+
+#: post_types/booking.php:67 post_types/booking.php:143
+#: post_types/points.php:542
+msgid "Phone"
+msgstr ""
+
+#: post_types/booking.php:71 post_types/points.php:541
+msgid "Email"
+msgstr ""
+
+#: post_types/booking.php:76 post_types/booking.php:145
+#: post_types/points.php:407
+msgid "Car Type"
+msgstr ""
+
+#: post_types/booking.php:81 post_types/booking.php:146
+msgid "Plan"
+msgstr ""
+
+#: post_types/booking.php:86 post_types/cars.php:83 post_types/points.php:278
+#: post_types/services.php:6 post_types/services.php:15
+msgid "Services"
+msgstr ""
+
+#: post_types/booking.php:91 post_types/booking.php:147
+#: post_types/services.php:56 post_types/tariffs.php:59
+msgid "Price"
+msgstr ""
+
+#: post_types/booking.php:95 post_types/booking.php:149
+msgid "Duration, min"
+msgstr ""
+
+#: post_types/booking.php:99 post_types/booking.php:150
+msgid "Payment"
+msgstr ""
+
+#: post_types/booking.php:104
+msgid "Booking Date"
+msgstr ""
+
+#: post_types/booking.php:117
+msgid "Additional Info"
+msgstr ""
+
+#: post_types/booking.php:151
+msgid "Date and Time"
+msgstr ""
+
+#: post_types/cars.php:6 post_types/cars.php:15
+msgid "Cars"
+msgstr ""
+
+#: post_types/cars.php:7 post_types/cars.php:9
+msgid "Car"
+msgstr ""
+
+#: post_types/cars.php:8
+msgid "Washing Cars"
+msgstr ""
+
+#: post_types/cars.php:11
+msgid "Add New Car"
+msgstr ""
+
+#: post_types/cars.php:12
+msgid "New Car"
+msgstr ""
+
+#: post_types/cars.php:13
+msgid "Edit Car"
+msgstr ""
+
+#: post_types/cars.php:14
+msgid "View Car"
+msgstr ""
+
+#: post_types/cars.php:16
+msgid "Search Cars"
+msgstr ""
+
+#: post_types/cars.php:17
+msgid "Parent Car:"
+msgstr ""
+
+#: post_types/cars.php:18
+msgid "No Cars found."
+msgstr ""
+
+#: post_types/cars.php:19
+msgid "No Cars found in Trash."
+msgstr ""
+
+#: post_types/cars.php:53
+msgid "Image"
+msgstr ""
+
+#: post_types/cars.php:58 post_types/tariffs.php:6 post_types/tariffs.php:15
+msgid "Tariffs"
+msgstr ""
+
+#: post_types/cars.php:60 post_types/cars.php:85
+msgid "Use CTRL to make multiple choice"
+msgstr ""
+
+#: post_types/points.php:6 post_types/points.php:15
+msgid "Points"
+msgstr ""
+
+#: post_types/points.php:8
+msgid "Washing Points"
+msgstr ""
+
+#: post_types/points.php:11
+msgid "Add New Point"
+msgstr ""
+
+#: post_types/points.php:12
+msgid "New Point"
+msgstr ""
+
+#: post_types/points.php:13
+msgid "Edit Point"
+msgstr ""
+
+#: post_types/points.php:14
+msgid "View Point"
+msgstr ""
+
+#: post_types/points.php:16
+msgid "Search Points"
+msgstr ""
+
+#: post_types/points.php:17
+msgid "Parent Point:"
+msgstr ""
+
+#: post_types/points.php:18
+msgid "No points found."
+msgstr ""
+
+#: post_types/points.php:19
+msgid "No points found in Trash."
+msgstr ""
+
+#: post_types/points.php:46
+msgid "Mon"
+msgstr ""
+
+#: post_types/points.php:47
+msgid "Tue"
+msgstr ""
+
+#: post_types/points.php:48
+msgid "Wed"
+msgstr ""
+
+#: post_types/points.php:49
+msgid "Thu"
+msgstr ""
+
+#: post_types/points.php:50
+msgid "Fri"
+msgstr ""
+
+#: post_types/points.php:51
+msgid "Sat"
+msgstr ""
+
+#: post_types/points.php:52
+msgid "Sun"
+msgstr ""
+
+#: post_types/points.php:65
+msgid "Working Time"
+msgstr ""
+
+#: post_types/points.php:89
+msgid "Break Time"
+msgstr ""
+
+#: post_types/points.php:126
+msgid "Booking Slots"
+msgstr ""
+
+#: post_types/points.php:129
+msgid "Limit of Simultaneous Orders per Period. Leave empty to remove the limit."
+msgstr ""
+
+#: post_types/points.php:132
+msgid "Currency"
+msgstr ""
+
+#: post_types/points.php:137
+msgid "Currency position"
+msgstr ""
+
+#: post_types/points.php:142
+msgid "Before"
+msgstr ""
+
+#: post_types/points.php:143
+msgid "After"
+msgstr ""
+
+#: post_types/points.php:147
+msgid "Minutes"
+msgstr ""
+
+#: post_types/points.php:153
+msgid "Email Settings"
+msgstr ""
+
+#: post_types/points.php:158
+msgid "Administrator Email(s)"
+msgstr ""
+
+#: post_types/points.php:159
+msgid "Can be several, coma separated. Used for booking orders."
+msgstr ""
+
+#: post_types/points.php:164
+msgid "From Email"
+msgstr ""
+
+#: post_types/points.php:165
+msgid "Can also depend on local SMTP settings. In case if you have problems with sending email, check external SMTP plugins like WP Mail SMTP."
+msgstr ""
+
+#: post_types/points.php:170
+msgid "From Name"
+msgstr ""
+
+#: post_types/points.php:179
+msgid "Google Calendar"
+msgstr ""
+
+#: post_types/points.php:183
+msgid "Location Address"
+msgstr ""
+
+#: post_types/points.php:185
+msgid "Used in google calendar and email variables."
+msgstr ""
+
+#: post_types/points.php:189
+msgid "Google Title"
+msgstr ""
+
+#: post_types/points.php:191
+msgid "Car Washing Booking"
+msgstr ""
+
+#: post_types/points.php:194
+msgid "Google Description"
+msgstr ""
+
+#: post_types/points.php:200
+msgid "Google Calendar Link Header"
+msgstr ""
+
+#: post_types/points.php:202
+msgid "If empty, link be hidden."
+msgstr ""
+
+#: post_types/points.php:220
+msgid "Car Types"
+msgstr ""
+
+#: post_types/points.php:234
+msgid "Plans Disabled"
+msgstr ""
+
+#: post_types/points.php:240
+msgid "Plans Layout"
+msgstr ""
+
+#: post_types/points.php:245
+msgid "Default"
+msgstr ""
+
+#: post_types/points.php:246 post_types/points.php:288
+msgid "Accordions"
+msgstr ""
+
+#: post_types/points.php:250 post_types/points.php:292
+msgid "Unselected Header"
+msgstr ""
+
+#: post_types/points.php:252
+msgid "Select plan"
+msgstr ""
+
+#: post_types/points.php:255 post_types/points.php:297
+msgid "Selected Header"
+msgstr ""
+
+#: post_types/points.php:257 post_types/points.php:299
+msgid "Selected"
+msgstr ""
+
+#: post_types/points.php:270
+msgid "Services Disabled"
+msgstr ""
+
+#: post_types/points.php:282
+msgid "Services Layout"
+msgstr ""
+
+#: post_types/points.php:287
+msgid "Default Grid"
+msgstr ""
+
+#: post_types/points.php:294
+msgid "Select Service"
+msgstr ""
+
+#: post_types/points.php:312
+msgid "Time Table Disabled"
+msgstr ""
+
+#: post_types/points.php:321
+msgid "Break Periods"
+msgstr ""
+
+#: post_types/points.php:326
+msgid "Break From"
+msgstr ""
+
+#: post_types/points.php:338
+msgid "Break To"
+msgstr ""
+
+#: post_types/points.php:353
+msgid "Weekend"
+msgstr ""
+
+#: post_types/points.php:359
+msgid "Max Days to Show"
+msgstr ""
+
+#: post_types/points.php:362
+msgid "By default 7 days"
+msgstr ""
+
+#: post_types/points.php:365
+msgid "Time Interval, Minutes"
+msgstr ""
+
+#: post_types/points.php:368
+msgid "Any positive integer, starting from 0. (5,15,30,60,120). In case a wrong value entered, the 60 will be used."
+msgstr ""
+
+#: post_types/points.php:371
+msgid "Empty Day Header"
+msgstr ""
+
+#: post_types/points.php:373 post_types/points.php:378
+msgid "Closed"
+msgstr ""
+
+#: post_types/points.php:376
+msgid "Weekend Day Header"
+msgstr ""
+
+#: post_types/points.php:381
+msgid "Display number of empty slots per time"
+msgstr ""
+
+#: post_types/points.php:385
+msgid "Calendar Legend"
+msgstr ""
+
+#: post_types/points.php:386 post_types/points.php:482
+msgid "Use brackets {{ to highlight }}"
+msgstr ""
+
+#: post_types/points.php:400
+msgid "Total Box"
+msgstr ""
+
+#: post_types/points.php:405
+msgid "Car Type Header"
+msgstr ""
+
+#: post_types/points.php:410
+msgid "Car Type Icon"
+msgstr ""
+
+#: post_types/points.php:415
+msgid "Washing Plan Header"
+msgstr ""
+
+#: post_types/points.php:417
+msgid "Washing Plan"
+msgstr ""
+
+#: post_types/points.php:420
+msgid "Washing Plan Icon"
+msgstr ""
+
+#: post_types/points.php:424
+msgid "Washing Placeholder"
+msgstr ""
+
+#: post_types/points.php:426
+msgid "Choose Your Plan"
+msgstr ""
+
+#: post_types/points.php:430
+msgid "Booking Date Header"
+msgstr ""
+
+#: post_types/points.php:432
+msgid "Booking date"
+msgstr ""
+
+#: post_types/points.php:435
+msgid "Booking Date Icon"
+msgstr ""
+
+#: post_types/points.php:440
+msgid "Booking Time Header"
+msgstr ""
+
+#: post_types/points.php:442
+msgid "Booking time"
+msgstr ""
+
+#: post_types/points.php:445
+msgid "Booking Time Icon"
+msgstr ""
+
+#: post_types/points.php:449
+msgid "Booking Time Placeholder"
+msgstr ""
+
+#: post_types/points.php:451
+msgid "Choose Booking Time"
+msgstr ""
+
+#: post_types/points.php:455
+msgid "Duration Header"
+msgstr ""
+
+#: post_types/points.php:457
+msgid "Duration"
+msgstr ""
+
+#: post_types/points.php:460
+msgid "Duration Icon"
+msgstr ""
+
+#: post_types/points.php:465
+msgid "Total Header"
+msgstr ""
+
+#: post_types/points.php:467
+msgid "Total Price"
+msgstr ""
+
+#: post_types/points.php:470
+msgid "Total Price Icon"
+msgstr ""
+
+#: post_types/points.php:476
+msgid "Form Configuration"
+msgstr ""
+
+#: post_types/points.php:481
+msgid "Form Header"
+msgstr ""
+
+#: post_types/points.php:486
+msgid "Form Text"
+msgstr ""
+
+#: post_types/points.php:490
+msgid "Header after order submit"
+msgstr ""
+
+#: post_types/points.php:495
+msgid "Text after order submit"
+msgstr ""
+
+#: post_types/points.php:500
+msgid "From Background Image"
+msgstr ""
+
+#: post_types/points.php:504
+msgid "Form Fields"
+msgstr ""
+
+#: post_types/points.php:509
+msgid "Label"
+msgstr ""
+
+#: post_types/points.php:514
+msgid "Type"
+msgstr ""
+
+#: post_types/points.php:518
+msgid "Text"
+msgstr ""
+
+#: post_types/points.php:519
+msgid "Textarea"
+msgstr ""
+
+#: post_types/points.php:523
+msgid "Required"
+msgstr ""
+
+#: post_types/points.php:527
+msgid "Width"
+msgstr ""
+
+#: post_types/points.php:531
+msgid "Full width"
+msgstr ""
+
+#: post_types/points.php:532
+msgid "Half width"
+msgstr ""
+
+#: post_types/points.php:536
+msgid "Predefined Field"
+msgstr ""
+
+#: post_types/points.php:539
+msgid "Custom"
+msgstr ""
+
+#: post_types/points.php:549
+msgid "Button Header"
+msgstr ""
+
+#: post_types/points.php:557
+msgid "Email Template"
+msgstr ""
+
+#: post_types/points.php:562
+msgid "Client subject"
+msgstr ""
+
+#: post_types/points.php:564 post_types/points.php:604
+msgid "Use {order_id} to insert order number"
+msgstr ""
+
+#: post_types/points.php:568
+msgid "Client Text"
+msgstr ""
+
+#: post_types/points.php:582
+msgid "You can use variables: {order_info], {name}, {location}, {google_calendar_link}."
+msgstr ""
+
+#: post_types/points.php:586
+msgid "Order Info Template"
+msgstr ""
+
+#: post_types/points.php:598
+msgid "You can use variables: {name}, {email}, {phone}, {car-type}, {tariff}, {services}, {duration}, {price}, {booking-date} and {custom} for all custom variables."
+msgstr ""
+
+#: post_types/points.php:602
+msgid "Admin subject"
+msgstr ""
+
+#: post_types/points.php:608
+msgid "Admin Text"
+msgstr ""
+
+#: post_types/points.php:618
+msgid "Use {order_info} to insert detailed order information and {name} to insert client's name."
+msgstr ""
+
+#: post_types/points.php:636
+msgid "Enable Stripe Payments"
+msgstr ""
+
+#: post_types/points.php:637
+msgid "For detailed information check the https://stripe.com"
+msgstr ""
+
+#: post_types/points.php:641
+msgid "Payment Button Header"
+msgstr ""
+
+#: post_types/points.php:646
+msgid "Payment Product Name"
+msgstr ""
+
+#: post_types/points.php:650
+msgid "Stripe Currency"
+msgstr ""
+
+#: post_types/points.php:651
+msgid "Check the https://stripe.com/docs/currencies"
+msgstr ""
+
+#: post_types/points.php:656
+msgid "Stripe Public Key"
+msgstr ""
+
+#: post_types/points.php:658
+msgid "Get your key and activate your account on a https://stripe.com/. You can use test keys in order to check the functionality."
+msgstr ""
+
+#: post_types/points.php:661
+msgid "Stripe Secret Key"
+msgstr ""
+
+#: post_types/points.php:665
+msgid "Success Payment URL"
+msgstr ""
+
+#: post_types/points.php:668
+msgid "Full link on this site to the page to which customer will be redirected after successful payment."
+msgstr ""
+
+#: post_types/points.php:671
+msgid "Cancel Payment URL"
+msgstr ""
+
+#: post_types/points.php:674
+msgid "Full link on this site to the page to which customer will be redirected after cancel or error of the payment."
+msgstr ""
+
+#: post_types/points.php:691
+msgid "LT Booking Shortcode"
+msgstr ""
+
+#: post_types/points.php:705
+msgid "Use this shortcode in order to add form on your page"
+msgstr ""
+
+#: post_types/services.php:7 post_types/services.php:9
+msgid "Service"
+msgstr ""
+
+#: post_types/services.php:8
+msgid "Washing Services"
+msgstr ""
+
+#: post_types/services.php:11
+msgid "Add New Service"
+msgstr ""
+
+#: post_types/services.php:12
+msgid "New Service"
+msgstr ""
+
+#: post_types/services.php:13
+msgid "Edit Service"
+msgstr ""
+
+#: post_types/services.php:14
+msgid "View Service"
+msgstr ""
+
+#: post_types/services.php:16
+msgid "Search Services"
+msgstr ""
+
+#: post_types/services.php:17
+msgid "Parent Service:"
+msgstr ""
+
+#: post_types/services.php:18
+msgid "No services found."
+msgstr ""
+
+#: post_types/services.php:19
+msgid "No services found in Trash."
+msgstr ""
+
+#: post_types/services.php:57 post_types/tariffs.php:60
+msgid "Only number"
+msgstr ""
+
+#: post_types/services.php:61 post_types/tariffs.php:64
+msgid "Time"
+msgstr ""
+
+#: post_types/services.php:62 post_types/tariffs.php:65
+msgid "Only number in minutes"
+msgstr ""
+
+#: post_types/services.php:70
+msgid "Icon"
+msgstr ""
+
+#: post_types/tariffs.php:7 post_types/tariffs.php:9
+msgid "Tariff"
+msgstr ""
+
+#: post_types/tariffs.php:8
+msgid "Washing Tariffs"
+msgstr ""
+
+#: post_types/tariffs.php:11
+msgid "Add New Tariff"
+msgstr ""
+
+#: post_types/tariffs.php:12
+msgid "New Tariff"
+msgstr ""
+
+#: post_types/tariffs.php:13
+msgid "Edit Tariff"
+msgstr ""
+
+#: post_types/tariffs.php:14
+msgid "View Tariff"
+msgstr ""
+
+#: post_types/tariffs.php:16
+msgid "Search Tariffs"
+msgstr ""
+
+#: post_types/tariffs.php:17
+msgid "Parent Tariff:"
+msgstr ""
+
+#: post_types/tariffs.php:18
+msgid "No tariffs found."
+msgstr ""
+
+#: post_types/tariffs.php:19
+msgid "No tariffs found in Trash."
+msgstr ""
+
+#: post_types/tariffs.php:49
+msgid "Order"
+msgstr ""
+
+#: post_types/tariffs.php:50
+msgid "Enter number for custom ordering. By default publish date is used."
+msgstr ""
+
+#: post_types/tariffs.php:54 post_types/tariffs.php:93
+msgid "Admin Header"
+msgstr ""
+
+#: post_types/tariffs.php:55
+msgid "Visible only in admin zone, can be a helper in selecting equal plans"
+msgstr ""
+
+#: post_types/tariffs.php:69
+msgid "Options"
+msgstr ""
+
+#: post_types/tariffs.php:70
+msgid "To set yes prefix use {+}, to set no prefix use {-}"
+msgstr ""
+
+#: post_types/tariffs.php:74
+msgid "Vip"
+msgstr ""
+
+#: post_types/tariffs.php:75
+msgid "Will be marked"
+msgstr ""
+
+#: post_types/tariffs.php:79
+msgid "Vip Background"
+msgstr ""

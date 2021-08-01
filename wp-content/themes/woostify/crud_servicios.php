@@ -30,7 +30,7 @@ $.get("/api/read.php", function(data){document.getElementById("servicios").inner
 <?php
     
     //mostrar tabla con los datos
-   foreach($servisio as $mostrar)	{
+   foreach($servicio as $mostrar)	{
 ?>
 <tr>
     <td><?php echo $mostrar->id;?></td>

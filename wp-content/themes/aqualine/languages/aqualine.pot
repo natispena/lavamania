@@ -1,0 +1,2010 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-02-13 13:51+0200\n"
+"PO-Revision-Date: 2017-08-10 09:30+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;e_;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: css\n"
+
+#: 404.php:23
+msgid "Oops! Page Not Found"
+msgstr ""
+
+#: 404.php:26
+msgid ""
+"The page you are looking for was moved, removed, renamed or might never "
+"existed."
+msgstr ""
+
+#: 404.php:29
+msgid "Home Page"
+msgstr ""
+
+#: comments.php:32 comments.php:50
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:33 comments.php:51
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:34 comments.php:52
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:74
+msgid "Leave Comment"
+msgstr ""
+
+#: comments.php:75
+msgid "Post comment"
+msgstr ""
+
+#: comments.php:77
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+
+#: comments.php:80
+msgid "Your Message"
+msgstr ""
+
+#: comments.php:85
+msgid "Name"
+msgstr ""
+
+#: comments.php:89
+msgid "Email"
+msgstr ""
+
+#: functions.php:47
+msgid "All Blog Posts"
+msgstr ""
+
+#: functions.php:52 functions.php:972
+msgid "Home"
+msgstr ""
+
+#: functions.php:57
+#, php-format
+msgid "Year Archives: %s"
+msgstr ""
+
+#: functions.php:62
+#, php-format
+msgid "Month Archives: %s"
+msgstr ""
+
+#: functions.php:67
+#, php-format
+msgid "Day Archives: %s"
+msgstr ""
+
+#: functions.php:77
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: functions.php:87
+#, php-format
+msgid "Search Results: %s"
+msgstr ""
+
+#: functions.php:101
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: functions.php:116
+#, php-format
+msgid "Attachment: %s"
+msgstr ""
+
+#: functions.php:121
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/fw/theme/options/customizer.php:8
+msgid "Aqualine Colors"
+msgstr ""
+
+#: inc/fw/theme/options/customizer.php:15
+#: inc/fw/theme/options/general-settings.php:1129 inc/theme-config.php:196
+msgid "Main Color"
+msgstr ""
+
+#: inc/fw/theme/options/customizer.php:20
+#: inc/fw/theme/options/general-settings.php:1133
+msgid "Second Color"
+msgstr ""
+
+#: inc/fw/theme/options/customizer.php:25
+#: inc/fw/theme/options/general-settings.php:1137
+msgid "Gray Color"
+msgstr ""
+
+#: inc/fw/theme/options/customizer.php:30
+#: inc/fw/theme/options/general-settings.php:1141
+msgid "Black Color"
+msgstr ""
+
+#: inc/fw/theme/options/customizer.php:35
+msgid "Red Color"
+msgstr ""
+
+#: inc/fw/theme/options/customizer.php:40
+#: inc/fw/theme/options/general-settings.php:1145 inc/theme-config.php:202
+msgid "White Color"
+msgstr ""
+
+#: inc/fw/theme/options/customizer.php:45
+msgid "Navbar Dark Color"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:24
+#, php-format
+msgid "Navbar %s Assign"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:26
+msgid "You can assign additional menus for inner navbar."
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:28
+#: inc/fw/theme/options/general-settings.php:279
+#: inc/fw/theme/options/general-settings.php:331
+#: inc/fw/theme/options/posts/page.php:6 inc/fw/theme/options/posts/page.php:53
+#: inc/fw/theme/options/posts/page.php:60
+#: inc/fw/theme/options/posts/page.php:70
+#: inc/fw/theme/options/posts/page.php:80
+#: inc/fw/theme/options/posts/page.php:97
+#: inc/fw/theme/options/posts/page.php:143
+#: inc/fw/theme/options/posts/page.php:155 inc/theme-config.php:24
+msgid "Default"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:38
+msgid "General"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:42
+#: inc/fw/theme/options/posts/page.php:27
+msgid "General Settings"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:49
+msgid "Page Loader"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:52
+#: inc/fw/theme/options/general-settings.php:341
+#: inc/fw/theme/options/general-settings.php:350
+#: inc/fw/theme/options/general-settings.php:370
+#: inc/fw/theme/options/general-settings.php:379
+#: inc/fw/theme/options/general-settings.php:415
+#: inc/fw/theme/options/general-settings.php:809
+#: inc/fw/theme/options/general-settings.php:819
+#: inc/fw/theme/options/general-settings.php:839
+#: inc/fw/theme/options/general-settings.php:848
+#: inc/fw/theme/options/general-settings.php:857
+#: inc/fw/theme/options/general-settings.php:866
+#: inc/fw/theme/options/general-settings.php:1167
+#: inc/fw/theme/options/posts/page.php:98
+msgid "Disabled"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:53
+#: inc/fw/theme/options/taxonomies/portfolio-stars.php:15
+msgid "Image"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:54
+msgid "Theme Loader"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:62
+msgid "Page Loader Image"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:70
+msgid "Google Maps API Key"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:71
+msgid ""
+"Required for contacts page, also used in widget. In order to use you must "
+"generate your own API on Google Maps Platform"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:77
+msgid "Logo and Media"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:81
+msgid "Logo"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:85
+msgid "To change Favicon go to Appearance -> Customize -> Site Identity"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:98
+msgid "Logo Max Height, px"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:101
+#: inc/fw/theme/options/general-settings.php:1113
+msgid "Logo Black"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:105
+#: inc/fw/theme/options/general-settings.php:1117
+msgid "Logo Black 2x"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:109
+#: inc/fw/theme/options/general-settings.php:1121
+msgid "Logo White"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:113
+#: inc/fw/theme/options/general-settings.php:1125
+msgid "Logo White 2x"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:117
+msgid "Headers icon"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:121
+msgid "Sidebar Widgets Background"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:125
+msgid "404 Background"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:135
+#: inc/fw/theme/options/general-settings.php:255
+#: inc/fw/theme/options/general-settings.php:1260
+msgid "Header"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:139
+#: inc/fw/theme/options/posts/page.php:51
+msgid "Navbar"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:143
+msgid "Navbar Default"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:149
+msgid "Navbar Default Override"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:150
+msgid ""
+"By default every page can have unqiue navbar setting. You can override them "
+"here."
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:153
+msgid "Disabled. Every page uses its own settings"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:154
+msgid "Enabled. Override all site pages and use Navbar Default"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:159
+msgid "Navbar Sticked"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:160
+msgid "May not work with all navbar types"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:163
+msgid "Allways Static"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:164
+msgid "Sticked"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:169
+msgid "Navbar Mobile Breakpoint, px"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:170
+msgid "Mobile menu will be displayed in viewports below this value"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:178
+msgid "Topbar"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:184
+msgid "You can edit topbar in sections menu of dashboard"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:187
+msgid "Topbar visibility"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:188
+msgid "You can edit topbar layout in Sections menu"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:191
+msgid "Always Visible"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:192
+msgid "Desktop Visible"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:193
+msgid "Desktop and Tablet Visible"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:194
+msgid "Mobile only Visible"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:195
+#: inc/fw/theme/options/general-settings.php:315
+#: inc/fw/theme/options/general-settings.php:637
+#: inc/fw/theme/options/general-settings.php:701
+#: inc/fw/theme/options/general-settings.php:711
+#: inc/fw/theme/options/general-settings.php:755
+#: inc/fw/theme/options/general-settings.php:765
+#: inc/fw/theme/options/general-settings.php:781
+#: inc/fw/theme/options/general-settings.php:792
+#: inc/fw/theme/options/posts/page.php:53
+#: inc/fw/theme/options/posts/page.php:61
+#: inc/fw/theme/options/posts/page.php:71
+#: inc/fw/theme/options/posts/page.php:81
+#: inc/fw/theme/options/posts/page.php:89
+#: inc/fw/theme/options/posts/page.php:132
+msgid "Hidden"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:200
+#: inc/fw/theme/options/posts/page.php:44
+msgid "Topbar section"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:201
+#: inc/fw/theme/options/posts/page.php:45
+msgid "You can edit it in Sections menu of dashboard."
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:209
+msgid "Icons and Elements"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:215
+msgid "Icons can be displayed in topbar using shortcode: [ltx-navbar-icons]"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:218
+msgid "Navbar / Topbar Icons"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:219
+msgid "Depends on theme style"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:229
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2547
+msgid "Type"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:232
+msgid "Search"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:233
+msgid "WooCommerce Cart"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:234
+msgid "User Profile"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:235
+msgid "Social Icon"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:242
+msgid "Count"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:245
+msgid "Show count label"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:246
+msgid "Hide count label"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:259
+#: inc/fw/theme/options/posts/menu.php:24
+#: inc/fw/theme/options/posts/services.php:20
+msgid "External Link"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:276
+#: inc/fw/theme/options/general-settings.php:1062
+#: inc/fw/theme/options/general-settings.php:1256
+#: inc/fw/theme/options/posts/team.php:20
+#: inc/fw/theme/options/taxonomies/portfolio-category.php:11
+msgid "Icon"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:280
+msgid "Custom"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:282
+msgid "For social icons you need to use FontAwesome in any case."
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:292
+msgid "Select Icon"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:299
+msgid "Visibility"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:303
+msgid "Hidden on mobile"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:304
+msgid "Visible on mobile"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:311
+msgid "Basket icon in navbar"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:312
+msgid "As replacement for basket in topbar in mobile view"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:316
+msgid "Visible on Mobile"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:323
+msgid "Page Header H1"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:327
+msgid "Page Header Visibility"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:328
+msgid "Status of Page Header with H1 and Breadcrumbs"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:332
+msgid "Force Hidden on all Pages"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:337
+msgid "Page Header Overlay"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:340
+#: inc/fw/theme/options/general-settings.php:351
+#: inc/fw/theme/options/general-settings.php:371
+#: inc/fw/theme/options/general-settings.php:380
+#: inc/fw/theme/options/general-settings.php:416
+#: inc/fw/theme/options/general-settings.php:810
+#: inc/fw/theme/options/general-settings.php:820
+#: inc/fw/theme/options/general-settings.php:840
+#: inc/fw/theme/options/general-settings.php:849
+#: inc/fw/theme/options/general-settings.php:858
+#: inc/fw/theme/options/general-settings.php:867
+#: inc/fw/theme/options/general-settings.php:1168
+msgid "Enabled"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:346
+msgid "Background parallax"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:347
+msgid "Parallax effect requires large images"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:356
+msgid "Inner Pages Header Background"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:357
+msgid "By default header is gray, you can replace it with background image"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:361
+msgid "WooCommerce Header Background"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:362
+msgid "Used only for WooCommerce pages"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:366
+msgid "Featured Images as Background"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:367
+msgid "Use Featured Image for Page as Header Background for all the pages"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:376
+msgid "Social icons in page header"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:390
+#: inc/fw/theme/options/posts/page.php:86
+msgid "Footer"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:395
+msgid "Widgets"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:399
+msgid "Footer Default Style"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:401
+msgid "Footer block before copyright. Edited in Widgets menu."
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:406
+msgid "Enable Footer Widgets"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:407
+msgid ""
+"Widgets controled in Appearance -> Widgets. Column will be hidden, then no "
+"active widgets exists"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:412
+#: inc/fw/theme/options/posts/page.php:93
+msgid "Footer Parallax"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:421
+msgid "Footer Background"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:425
+msgid "Desktop widgets visibility"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:430
+#: inc/fw/theme/options/general-settings.php:489
+#: inc/fw/theme/options/general-settings.php:547 inc/theme-config.php:286
+msgid "Footer 1"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:435
+#: inc/fw/theme/options/general-settings.php:448
+#: inc/fw/theme/options/general-settings.php:461
+#: inc/fw/theme/options/general-settings.php:474
+#: inc/fw/theme/options/general-settings.php:494
+#: inc/fw/theme/options/general-settings.php:507
+#: inc/fw/theme/options/general-settings.php:520
+#: inc/fw/theme/options/general-settings.php:533
+#: inc/fw/theme/options/general-settings.php:552
+#: inc/fw/theme/options/general-settings.php:565
+#: inc/fw/theme/options/general-settings.php:578
+#: inc/fw/theme/options/general-settings.php:591
+msgid "Hide"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:439
+#: inc/fw/theme/options/general-settings.php:452
+#: inc/fw/theme/options/general-settings.php:465
+#: inc/fw/theme/options/general-settings.php:478
+#: inc/fw/theme/options/general-settings.php:498
+#: inc/fw/theme/options/general-settings.php:511
+#: inc/fw/theme/options/general-settings.php:524
+#: inc/fw/theme/options/general-settings.php:537
+#: inc/fw/theme/options/general-settings.php:556
+#: inc/fw/theme/options/general-settings.php:569
+#: inc/fw/theme/options/general-settings.php:582
+#: inc/fw/theme/options/general-settings.php:595
+msgid "Show"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:443
+#: inc/fw/theme/options/general-settings.php:502
+#: inc/fw/theme/options/general-settings.php:560 inc/theme-config.php:296
+msgid "Footer 2"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:456
+#: inc/fw/theme/options/general-settings.php:515
+#: inc/fw/theme/options/general-settings.php:573 inc/theme-config.php:306
+msgid "Footer 3"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:469
+#: inc/fw/theme/options/general-settings.php:528
+#: inc/fw/theme/options/general-settings.php:586 inc/theme-config.php:316
+msgid "Footer 4"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:484
+msgid "Notebook widgets visibility"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:543
+msgid "Mobile widgets visibility"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:603
+msgid "Subscribe and Other"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:607
+msgid "You can edit all items in Sections menu of dashboard."
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:611
+msgid "Subscribe block"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:612
+msgid ""
+"Section displayed before widgets on every page. You can hide in on certain "
+"page in page settings."
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:618
+msgid "Before Footer section"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:619
+msgid "Section displayed under all content before subscribe/widgets."
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:627 inc/template-parts.php:735
+msgid "Go Top"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:631
+msgid "Go Top Visibility"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:634
+msgid "Always visible"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:635
+msgid "Desktop Only"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:636
+msgid "Mobile Only"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:642
+msgid "Go Top Position"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:645
+msgid "Floating"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:646
+msgid "Static at the footer"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:651
+msgid "Go Top Image"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:655
+msgid "Go Top Icon"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:659
+msgid "Go Top Text"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:665
+#: inc/fw/theme/options/general-settings.php:669
+msgid "Copyrights"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:677
+msgid "Posts Layout"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:682
+msgid "Blog Posts"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:687
+#: inc/fw/theme/options/posts/page.php:139
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:688
+msgid "Default blog page layout."
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:691
+#: inc/fw/theme/options/general-settings.php:745
+#: inc/fw/theme/options/posts/page.php:144
+msgid "One Column"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:692
+#: inc/fw/theme/options/general-settings.php:746
+#: inc/fw/theme/options/general-settings.php:887
+#: inc/fw/theme/options/posts/page.php:145
+#: inc/fw/theme/options/posts/page.php:156
+msgid "Two Columns"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:693
+#: inc/fw/theme/options/general-settings.php:747
+#: inc/fw/theme/options/general-settings.php:888
+#: inc/fw/theme/options/posts/page.php:146
+#: inc/fw/theme/options/posts/page.php:157
+msgid "Three Columns"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:698
+msgid "Blog List Sidebar"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:702
+#: inc/fw/theme/options/general-settings.php:712
+#: inc/fw/theme/options/general-settings.php:756
+#: inc/fw/theme/options/general-settings.php:766
+#: inc/fw/theme/options/general-settings.php:782
+#: inc/fw/theme/options/general-settings.php:793
+msgid "Left"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:703
+#: inc/fw/theme/options/general-settings.php:713
+#: inc/fw/theme/options/general-settings.php:757
+#: inc/fw/theme/options/general-settings.php:767
+#: inc/fw/theme/options/general-settings.php:783
+#: inc/fw/theme/options/general-settings.php:794
+msgid "Right"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:708
+#: inc/fw/theme/options/general-settings.php:789
+msgid "Blog Post Sidebar"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:718
+msgid "Excerpt Classic Blog Size"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:719
+#: inc/fw/theme/options/general-settings.php:725
+msgid "Automaticly cuts content for blogs"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:724
+msgid "Excerpt Masonry Blog Size"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:730
+msgid "Gallery post type autoplay, ms"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:731
+msgid "Set 0 to disable autoplay"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:738
+msgid "Services"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:742
+msgid "Services List Layout"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:752
+msgid "Services List Sidebar"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:762
+msgid "Services Post Sidebar"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:774 inc/tgmpa.php:65
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:778
+msgid "WooCommerce List Sidebar"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:788
+msgid "WooCommerce Product Sidebar"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:799
+msgid "Excerpt WooCommerce Size"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:800
+msgid "Automaticly cuts description for products"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:805
+msgid "WooCommerce Product Hover Zoom"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:807
+msgid "Enables mouse hover zoom in single product page"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:815
+msgid "Hover Gallery Photo "
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:817
+msgid "Display first gallery image on product list hover"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:825
+msgid "Columns number"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:826
+msgid "Overrides default WooCommerce settings"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:831
+msgid "Products per Page"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:836
+msgid "Display Excerpt in Shop List"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:845
+msgid "Display Rate in Shop List"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:854
+msgid "Display Attributes in Shop List"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:863
+msgid "Display Read More"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:872
+msgid "Number of days to display New label. Set 0 to hide."
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:879
+#: inc/fw/theme/options/posts/post.php:12
+msgid "Gallery"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:883
+msgid "Default Gallery Layout"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:884
+msgid "Default galley page layout."
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:889
+#: inc/fw/theme/options/posts/page.php:158
+msgid "Four Columns"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:898
+msgid "Fonts"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:903
+msgid "Fonts Settings"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:907
+msgid "Main Font"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:909
+msgid "Use https://fonts.google.com/ to find font you need"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:928
+#: inc/fw/theme/options/general-settings.php:954
+#: inc/fw/theme/options/general-settings.php:980
+msgid "Additonal weights"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:929
+msgid "Coma separates weights, for example: \"800,900\""
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:934
+msgid "Headers Font"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:955
+#: inc/fw/theme/options/general-settings.php:981
+msgid "Coma separates weights, for example: \"600,800\""
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:960
+msgid "SubHeaders Font"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:988
+msgid "Fontello"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:992
+msgid "Local Fontello Packs"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:993
+msgid "Import the same files from /assets/fontello/ directory of theme."
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:998
+msgid "Fontello Codes CSS"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:999
+msgid "Upload *-codes.css postfix file here"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1004
+msgid "Fontello TTF"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1009
+msgid "Fontello EOT"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1014
+msgid "Fontello WOFF"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1019
+msgid "Fontello WOFF2"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1024
+msgid "Fontello SVG"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1034
+#: inc/fw/theme/options/general-settings.php:1038
+msgid "Social"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1042
+msgid "Open social links in"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1045
+msgid "Same window"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1046
+msgid "New window"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1051
+msgid "Social Header"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1056
+msgid "Social Icons"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1059
+msgid "Visible in inner page header"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1066
+msgid "Text"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1067
+#: inc/fw/theme/options/posts/team.php:25
+msgid "If needed"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1071
+#: inc/fw/theme/options/general-settings.php:1264
+#: inc/fw/theme/options/posts/team.php:24
+msgid "Link"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1083
+msgid "Colors Schemes"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1087
+msgid "Additional Color Schemes Settings"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1091
+msgid ""
+"You also need to change the global settings in Appearance -> Customize -> "
+"Aqualine settings"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1095
+msgid "Theme Color Schemes"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1098
+msgid "Can be selected in page settings"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1101
+msgid "Scheme ID"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1103
+#: inc/fw/theme/options/general-settings.php:1108
+msgid "Required Field"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1107
+msgid "Scheme Name"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1156
+msgid "Popup"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1160
+msgid "Popup settings"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1164
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2552
+msgid "Status"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1173
+msgid "Period hidden, days"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1178
+msgid "Popup text"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1182
+msgid "Popup Background"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1186
+msgid "Yes button"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1191
+msgid "No button"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1196
+msgid "No link"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1222
+msgid "Hide all share icons block"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1250
+msgid "Custom Share Buttons"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1253
+msgid ""
+"You can use {link} and {title} variables to set url. E.g. \"http://www."
+"facebook.com/sharer.php?u={link}\""
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1269
+msgid "Color"
+msgstr ""
+
+#: inc/fw/theme/options/general-settings.php:1278
+msgid "Share Buttons"
+msgstr ""
+
+#: inc/fw/theme/options/posts/gallery.php:11
+msgid "SubHeader"
+msgstr ""
+
+#: inc/fw/theme/options/posts/gallery.php:15
+msgid "Multi Upload"
+msgstr ""
+
+#: inc/fw/theme/options/posts/menu.php:11
+#: inc/fw/theme/options/posts/testimonials.php:11
+msgid "Subheader"
+msgstr ""
+
+#: inc/fw/theme/options/posts/menu.php:15
+msgid "Excerpt"
+msgstr ""
+
+#: inc/fw/theme/options/posts/menu.php:19
+msgid "Price"
+msgstr ""
+
+#: inc/fw/theme/options/posts/menu.php:20
+msgid "Use {{ brackets }} to add postfix"
+msgstr ""
+
+#: inc/fw/theme/options/posts/menu.php:25
+msgid "Replaces default service link (get more)"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:23
+msgid "Page settings"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:32
+msgid "Content Margin"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:34
+msgid "Margins control for content"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:36
+msgid "Top And Bottom"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:37
+msgid "Top Only"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:38
+msgid "Bottom Only"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:39
+msgid "Margin Removed"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:57
+msgid "Page Header"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:66
+msgid "Subscribe Block"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:68
+msgid "Subscribe block before footer. Can be edited from Sections Menu."
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:76
+#: inc/fw/theme/options/posts/sections.php:13
+msgid "Before Footer"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:78
+msgid "Before footer sections. Edited in Sections menu."
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:88
+msgid "Footer block before footer. Edited in Widgets menu."
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:95
+msgid "Footer block parallax effect."
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:103
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:109
+msgid "Background Scheme"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:112 inc/theme-config.php:156
+msgid "White"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:113 inc/theme-config.php:73
+#: inc/theme-config.php:157
+msgid "Black"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:118
+msgid "Background Image"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:120
+msgid "Will be used to fill whole page"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:125
+msgid "Blog / Gallery"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:129
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:133
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:134
+msgid "Sidebar Right"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:140
+msgid "Used only for blog pages."
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:151
+msgid "Gallery Layout"
+msgstr ""
+
+#: inc/fw/theme/options/posts/page.php:152
+msgid "Used only for gallery pages."
+msgstr ""
+
+#: inc/fw/theme/options/posts/portfolio.php:11
+msgid "Sub Header"
+msgstr ""
+
+#: inc/fw/theme/options/posts/post.php:13
+msgid "Upload featured images for slider gallery post type"
+msgstr ""
+
+#: inc/fw/theme/options/posts/product.php:12
+msgid "Featured Product"
+msgstr ""
+
+#: inc/fw/theme/options/posts/product.php:13
+msgid "Image will be used as background"
+msgstr ""
+
+#: inc/fw/theme/options/posts/sections.php:8
+#: inc/fw/theme/options/posts/sections.php:9
+msgid "Theme Block"
+msgstr ""
+
+#: inc/fw/theme/options/posts/sections.php:12
+msgid "Not Assigned"
+msgstr ""
+
+#: inc/fw/theme/options/posts/sections.php:14
+msgid "Subscribe"
+msgstr ""
+
+#: inc/fw/theme/options/posts/sections.php:15
+msgid "Top Bar"
+msgstr ""
+
+#: inc/fw/theme/options/posts/services.php:11
+msgid "Alternative Header"
+msgstr ""
+
+#: inc/fw/theme/options/posts/services.php:12
+msgid "Use {{ brackets }} to headlight"
+msgstr ""
+
+#: inc/fw/theme/options/posts/services.php:16
+#: inc/fw/theme/options/posts/team.php:11
+msgid "Short Description"
+msgstr ""
+
+#: inc/fw/theme/options/posts/services.php:21
+msgid "Replaces default service link"
+msgstr ""
+
+#: inc/fw/theme/options/posts/sliders.php:12
+msgid "Pagination Image"
+msgstr ""
+
+#: inc/fw/theme/options/posts/sliders.php:16
+msgid "Pagination Header"
+msgstr ""
+
+#: inc/fw/theme/options/posts/team.php:15
+msgid "Social Icons For List"
+msgstr ""
+
+#: inc/fw/theme/options/posts/testimonials.php:16
+msgid "Rate"
+msgstr ""
+
+#: inc/fw/theme/options/posts/testimonials.php:17
+msgid "Null for hidden"
+msgstr ""
+
+#: inc/fw/theme/options/posts/testimonials.php:24
+msgid "Short Testimonial"
+msgstr ""
+
+#: inc/fw/theme/options/posts/testimonials.php:25
+msgid "Image will be hiddem and layout inverted"
+msgstr ""
+
+#: inc/fw/theme/options/posts/tribe_events.php:11
+msgid "Additional Cost"
+msgstr ""
+
+#: inc/fw/theme/options/taxonomies/portfolio-category.php:15
+msgid "or Image"
+msgstr ""
+
+#: inc/fw/theme/options/taxonomies/portfolio-stars.php:11
+msgid "Role"
+msgstr ""
+
+#: inc/fw/theme/options/taxonomies/product_cat.php:11
+msgid "Additional Header"
+msgstr ""
+
+#: inc/fw/theme/options/taxonomies/product_cat.php:12
+msgid "Use {{ to highlight }} the word"
+msgstr ""
+
+#: inc/helpers.php:191
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/helpers.php:231
+msgid "Post navigation"
+msgstr ""
+
+#: inc/hooks.php:271
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/hooks.php:333
+msgid "Aqualine Demo Content"
+msgstr ""
+
+#: inc/menus.php:7
+msgid "Main menu"
+msgstr ""
+
+#: inc/template-parts.php:22 inc/template-parts.php:30
+msgid "Edit"
+msgstr ""
+
+#: inc/template-parts.php:53
+msgid "at"
+msgstr ""
+
+#: inc/template-parts.php:586
+msgid "Loading..."
+msgstr ""
+
+#: inc/template-parts.php:609 inc/template-parts.php:614
+msgid "Like-themes &copy; All Rights Reserved - 2020"
+msgstr ""
+
+#: inc/template-parts.php:792
+msgid "Related "
+msgstr ""
+
+#: inc/template-parts.php:793
+msgid "posts"
+msgstr ""
+
+#: inc/template-parts.php:880
+msgid "Website"
+msgstr ""
+
+#: inc/template-parts.php:883
+msgid "All posts"
+msgstr ""
+
+#: inc/template-parts.php:896
+msgid "Author"
+msgstr ""
+
+#: inc/template-parts.php:926 inc/template-parts.php:1049
+msgid "by"
+msgstr ""
+
+#: inc/template-parts.php:1031
+msgid "0 comments"
+msgstr ""
+
+#: inc/template-parts.php:1031
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-parts.php:1031
+msgid "% Comments"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:325
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:326
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:328
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:331
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:383
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:384
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:825
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2531
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:385
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3157
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:386
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:390
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:393
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:932
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:932
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:935
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:935
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1980
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2271
+msgid "Required"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2274
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2290
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2293
+msgid "External Source"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2296
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2313
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2317
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2319
+msgid "Active"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2325
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2328
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2331
+msgid "Update recommended"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2488
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2496
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2508
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2531
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2545
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2546
+msgid "Source"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2551
+msgid "Version"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2601
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2606
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2612
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2682
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2715
+msgid "Install"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2721
+msgid "Update"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2724
+msgid "Activate"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2755
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2798
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2906
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2932
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3156
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3496
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3499
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3505
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3507
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3511
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3514
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3516
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa.php:26
+msgid "Unyson"
+msgstr ""
+
+#: inc/tgmpa.php:31
+msgid "LT Extension"
+msgstr ""
+
+#: inc/tgmpa.php:38
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: inc/tgmpa.php:44
+msgid "Envato Market"
+msgstr ""
+
+#: inc/tgmpa.php:50
+msgid "Breadcrumb-navxt"
+msgstr ""
+
+#: inc/tgmpa.php:55
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/tgmpa.php:60
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: inc/tgmpa.php:70
+msgid "Post-views-counter"
+msgstr ""
+
+#: inc/tgmpa.php:75
+msgid "User Profile Picture"
+msgstr ""
+
+#: inc/tgmpa.php:80
+msgid "Instagram Widget by WPZOOM"
+msgstr ""
+
+#: inc/theme-config.php:16
+msgid "White Background"
+msgstr ""
+
+#: inc/theme-config.php:17
+msgid "Transparent on Dark Background"
+msgstr ""
+
+#: inc/theme-config.php:18
+msgid "Transparent with Overlay"
+msgstr ""
+
+#: inc/theme-config.php:19
+msgid "Hamburger Transparent"
+msgstr ""
+
+#: inc/theme-config.php:25
+msgid "Copyright Only"
+msgstr ""
+
+#: inc/theme-config.php:26
+msgid "Copyright Transparent"
+msgstr ""
+
+#: inc/theme-config.php:36
+msgid "Red"
+msgstr ""
+
+#: inc/theme-config.php:63 inc/theme-config.php:153
+msgid "Main"
+msgstr ""
+
+#: inc/theme-config.php:68 inc/theme-config.php:155
+msgid "Gray"
+msgstr ""
+
+#: inc/theme-config.php:78
+msgid "Pale Pink"
+msgstr ""
+
+#: inc/theme-config.php:86
+msgid "small"
+msgstr ""
+
+#: inc/theme-config.php:87
+msgid "S"
+msgstr ""
+
+#: inc/theme-config.php:92
+msgid "regular"
+msgstr ""
+
+#: inc/theme-config.php:93
+msgid "M"
+msgstr ""
+
+#: inc/theme-config.php:98
+msgid "large"
+msgstr ""
+
+#: inc/theme-config.php:99
+msgid "L"
+msgstr ""
+
+#: inc/theme-config.php:147
+msgid "Overflow visible section"
+msgstr ""
+
+#: inc/theme-config.php:148
+msgid "Background move on hover"
+msgstr ""
+
+#: inc/theme-config.php:149
+msgid "Locations Row"
+msgstr ""
+
+#: inc/theme-config.php:150
+msgid "Before After Icons Row"
+msgstr ""
+
+#: inc/theme-config.php:154
+msgid "Second"
+msgstr ""
+
+#: inc/theme-config.php:158
+msgid "True Black"
+msgstr ""
+
+#: inc/theme-config.php:161
+msgid "Black Overlay (80%)"
+msgstr ""
+
+#: inc/theme-config.php:162
+msgid "Dark Overlay (60%)"
+msgstr ""
+
+#: inc/theme-config.php:163
+msgid "Gray Overlay (40%)"
+msgstr ""
+
+#: inc/theme-config.php:164
+msgid "Light Overlay (20%)"
+msgstr ""
+
+#: inc/theme-config.php:165
+msgid "White Overlay (50%)"
+msgstr ""
+
+#: inc/theme-config.php:167
+msgid "Bulb Main Color"
+msgstr ""
+
+#: inc/theme-config.php:168
+msgid "Bulb Second Color"
+msgstr ""
+
+#: inc/theme-config.php:169
+msgid "Bulb White Color"
+msgstr ""
+
+#: inc/theme-config.php:170
+msgid "Bulb Black Color"
+msgstr ""
+
+#: inc/theme-config.php:171
+msgid "Bulb Gray Color"
+msgstr ""
+
+#: inc/theme-config.php:208
+msgid "Medium Text"
+msgstr ""
+
+#: inc/theme-config.php:214
+msgid "Large Text"
+msgstr ""
+
+#: inc/theme-config.php:266
+msgid "Sidebar Default"
+msgstr ""
+
+#: inc/theme-config.php:268 inc/theme-config.php:278
+msgid "Displayed in the right/left section of the site."
+msgstr ""
+
+#: inc/theme-config.php:276
+msgid "Sidebar WooCommerce"
+msgstr ""
+
+#: inc/theme-config.php:288 inc/theme-config.php:298 inc/theme-config.php:308
+#: inc/theme-config.php:318
+msgid "Displayed in the footer section of the site."
+msgstr ""
+
+#: inc/theme-welcome.php:64
+msgid "Welcome to"
+msgstr ""
+
+#: inc/theme-welcome.php:71
+msgid ""
+"In order to get the full functionality of the theme, we recommend you to "
+"install all required "
+msgstr ""
+
+#: inc/theme-welcome.php:73
+msgid "plugins"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer.php:61
+msgid "Aqualine Icons"
+msgstr ""
+
+#: inc/woocommerce.php:191 tmpl/post-formats/list-inline.php:39
+#: tmpl/post-formats/list-left.php:71 tmpl/post-formats/list-short.php:26
+#: tmpl/post-formats/list-video.php:56 tmpl/post-formats/list.php:104
+msgid "Read more"
+msgstr ""
+
+#: inc/woocommerce.php:382
+msgid "New"
+msgstr ""
+
+#: inc/woocommerce.php:402
+msgid "Sale"
+msgstr ""
+
+#: tmpl/content-none.php:12
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: tmpl/content-none.php:16
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: tmpl/content-none.php:21
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: tmpl/content-page.php:13 tmpl/content-post-full.php:67
+msgid "Pages:"
+msgstr ""
+
+#: tmpl/content-post-full.php:94
+msgid "Tags:"
+msgstr ""
+
+#: tmpl/content-post-full.php:111
+msgid "Share"
+msgstr ""
+
+#: tmpl/content-post-full.php:122
+msgid "Categories:"
+msgstr ""
+
+#: tmpl/content-services.php:24 tmpl/content-services.php:26
+msgid "Read more &rarr;"
+msgstr ""

@@ -1,8 +1,0 @@
-2021-06-29T20:56:16+00:00 ERROR The api key or merchant id are invalid
-2021-06-29T20:58:11+00:00 DEBUG action_woocommerce_checkout_create_order => {"$this->capture":true}
-2021-06-29T20:58:12+00:00 DEBUG extra_data => {"$openpay_cc":"new","$save_cc":false,"$capture":true,"$charge_type":"direct"}
-2021-06-29T20:58:12+00:00 INFO processOpenpayCharge Order => 107
-2021-06-29T20:58:14+00:00 INFO openpay_woocommerce_order_status_change_custom
-2021-06-29T20:58:14+00:00 INFO $old_status: pending
-2021-06-29T20:58:14+00:00 INFO $new_status: failed
-2021-06-29T20:58:14+00:00 INFO $capture: 

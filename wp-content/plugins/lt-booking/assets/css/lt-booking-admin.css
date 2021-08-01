@@ -1,0 +1,66 @@
+/**
+ * LT-Booking plugin admin stylesheet
+ */
+.post-type-lt-booking-point .postbox-with-fw-options.fw-postbox-without-name {
+  background: transparent;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+.post-type-lt-booking-point .postbox-with-fw-options.fw-postbox-without-name .metabox-holder {
+  margin-top: 20px;
+}
+.post-type-lt-booking-point .postbox-with-fw-options.fw-postbox-without-name .fw-postbox {
+  border: 0;
+}
+.post-type-lt-booking-point .postbox-with-fw-options.fw-postbox-without-name .fw-postbox .hndle {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.post-type-lt-booking-point .fw-options-tabs-wrapper .fw-options-tabs-wrapper {
+  padding-top: 30px;
+}
+.post-type-lt-booking-point .fw-options-tabs-wrapper .fw-options-tabs-wrapper .fw-options-tabs-list .ui-tabs-nav a {
+  font-weight: bold !important;
+}
+.postbox-with-fw-options.fw-postbox-without-name > .inside > div > .fw-options-tabs-contents {
+  background: #fff;
+  margin-top: 0;
+  padding-top: 20px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.postbox-with-fw-options > .inside,
+.fw-postbox > .inside {
+  padding-bottom: 0 !important;
+}
+.postbox .fw-options-tabs-wrapper > .fw-options-tabs-list {
+  padding-left: 0;
+}
+.postbox .fw-options-tabs-wrapper > .fw-options-tabs-list ul li a.nav-tab,
+.fw-options-tabs-wrapper > .fw-options-tabs-list ul li a.nav-tab {
+  padding: 12px 24px;
+  margin-left: 0;
+  margin-right: 6px;
+  background: #fff;
+  border-bottom: 0;
+  font-weight: normal;
+  border-color: #ddd;
+  font-size: 14px;
+}
+.postbox .fw-options-tabs-wrapper > .fw-options-tabs-list ul li.ui-state-active a.nav-tab {
+  background: #0074A2;
+  border-color: transparent;
+  border-bottom: 0;
+  color: #fff;
+}
+
+.input-group.date .input-group-addon {
+
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+}

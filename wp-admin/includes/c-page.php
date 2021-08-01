@@ -1,4 +1,7 @@
-<div class="wrap">
-  <h1>Hello!</h1>
-  <p>Cliente</p>
-</div>
+<script language=javascript> 
+function ventanaSecundaria (URL){ 
+   window.open(URL,"ventana1","width=500,height=600,scrollbars=NO") 
+} 
+
+ventanaSecundaria("http://localhost/lavamania/cliente/"); 
+</script>

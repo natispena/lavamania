@@ -5085,7 +5085,7 @@ INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
 (14, 'rated-5', 'rated-5', 0),
 (15, 'Sin categorizar', 'sin-categorizar', 0),
 (16, 'main_menu', 'main_menu', 0),
-(17, 'menu_cliente', 'menu_cliente', 0);
+(17, '', 'menu_cliente', 0);
 
 -- --------------------------------------------------------
 

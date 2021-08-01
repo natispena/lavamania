@@ -1,0 +1,77 @@
+Version 1.4.1
+- Manual confirmation of orders added
+- Custom options variables added
+
+Version 1.4.0
+- Breaking periods fix
+
+Version 1.3.8
+- Added Payfast payments gateway
+- Added optional redirect link after order in payments tab
+
+Version 1.3.7
+- Stripe tax rates added
+
+Version 1.3.6
+- Services optional count added
+
+Version 1.3.5
+- Fix total price rounding
+
+Version 1.3.4
+- Fix Booking Date Format
+
+Version 1.3.3
+- Fixed total count with only services available
+
+Version 1.3.2
+- Fixed order duration limit recalucation
+
+Version 1.3.1
+- Minor fixed for Stipe payments
+
+Version 1.3.0
+- Added Stripe Payments 
+
+Version 1.2.0
+- Fix multiple bookings deleting
+
+Version 1.1.9
+- Fixed several points booking conflict
+
+Version 1.1.8
+- Added time table free slots left optional display
+
+Version 1.1.7
+- Fix booking disabled days error
+
+Version 1.1.6
+- WordPress timeformat compatibility
+
+Version 1.1.5
+- Orders durability now is counted in timetable
+
+Version 1.1.4
+- Timetable max days option added in order to support more than 7 days
+- Timetable minutes interval option added
+
+Version 1.1.3
+- Fix Google Calendar Dates
+
+Version 1.1.2
+- Added Unique Services for each car
+
+Version 1.1.1
+- Added Services and plans accrodion layout
+
+Version 1.1.0
+- Added Number of bookings per slot
+
+Version 1.02 (2020.03.13)
+- Fix Mail Sending function for clients
+- Fix Tariffs and Cars links
+- Fix Data formats for input fields
+- Added Tariff admin label
+
+Version 1.01 (2020.03.03)
+- Minor bug fixes

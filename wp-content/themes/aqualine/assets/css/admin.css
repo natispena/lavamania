@@ -1,0 +1,71 @@
+/* 
+	TGMA Plugin Activation
+*/
+.fw-option-type-typography-v2 .fw-option-typography-v2-option select {
+
+	padding: 2px !important;
+}
+
+.tgmpa-inline {
+	display: block;
+	margin: 0.5em 0.5em 0 0;
+	clear: both;
+}
+.tgmpa-ver {
+	float: right;
+	padding: 0em 1.5em 0.5em 0;
+}
+.tgmpa-float-ver {
+	min-width: 32px;
+	text-align: right;
+	float: right;
+}
+.tgmpa-color-1 {
+	color: #ff0000;
+	font-weight: bold;
+}
+.tgmpa-color-2 {
+	color: #71C671;
+	font-weight: bold;
+}
+.tgmpa-h2 {
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 29px;
+	margin: 0;
+	padding: 9px 15px 4px 0;
+}
+.tgmpa-update-php {
+	width: 100%;
+	height: 98%;
+	min-height: 850px;
+	padding-top: 1px;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+
+	font-family: "aqualine-fontello";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	text-align: center;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1em;
+}
+
+.ltx-admin-section {
+
+	background: #fff;
+	padding: 25px 30px 20px;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+.ltx-admin-section h2 {
+
+	font-size: 24px;
+}
