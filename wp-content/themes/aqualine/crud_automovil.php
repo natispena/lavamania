@@ -11,11 +11,11 @@ include "mostrar_a.php";
 <script>
 jQuery(document).on('submit_success', function(event, response){read();});
 function readd(){
-$.get("/api/read.php", function(data){document.getElementById("servicios").innerHtml =data;
+$.get("/api/read.php", function(data){document.getElementById("crud automovil").innerHtml =data;
 });
 }
 </script>
-<table id='vehiculo'>
+<table id='automovil'>
 <tr>
 	<td>id</td>
 	<td>placa</td>
@@ -32,9 +32,9 @@ $.get("/api/read.php", function(data){document.getElementById("servicios").inner
 <tr>
     <td><?php echo $mostrar->id;?></td>
     <td><?php echo $mostrar->placa;?></td>
-    <td><?php echo $mostrar->marca;?></td>
+    <td><?php echo $mostrar->marca_id;?></td>
     <td><?php echo $mostrar->color;?></td>
-    <td><?php echo $mostrar->tipo;?></td>
+    <td><?php echo $mostrar->vehiculo_id;?></td>
     <td><?php echo $mostrar->ano;?></td>
 	<td><div class="elementor-element elementor-element-28ba169 elementor-button-danger elementor-widget elementor-widget-button" data-id="28ba169" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
@@ -84,7 +84,7 @@ $.get("/api/read.php", function(data){document.getElementById("servicios").inner
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-d785e53 elementor-widget elementor-widget-heading" data-id="d785e53" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">AÑADIR NUEVOS MEMBRESIAS
+			<h2 class="elementor-heading-title elementor-size-default">AÑADIR NUEVO VEHICULO
 </h2>		</div>
 				</div>
 					</div>
@@ -113,18 +113,19 @@ $.get("/api/read.php", function(data){document.getElementById("servicios").inner
 					<label for="form-field-field_59d4a33" class="elementor-field-label">tipo</label><input size="1" type="text" name="tipo" id="tipo" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="tipo" required="required" aria-required="true">				</div>
 								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_5595120 elementor-col-33 elementor-field-required">
 					<label for="form-field-field_5595120" class="elementor-field-label">año</label><input size="1" type="text" name="ano" id="ano" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="año" required="required" aria-required="true">				</div>
-								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-					<span class="ltx-btn-wrap"><button type="submit" class="elementor-button elementor-size-sm btn btn-xs">
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-50 e-form__buttons">
+					<button type="submit" class="elementor-button elementor-size-sm btn btn-xs" aria-invalid="false" name="insert">
 						<span>
-															<span class=" elementor-button-icon">
-																										</span>
-																						<span class="elementor-button-text">Send</span>
+															<span class="elementor-align-icon-left elementor-button-icon">
+									<i aria-hidden="true" class="far fa-save"></i>																	</span>
+																						<span class="elementor-button-text">Guardar</span>
 													</span>
+					</button>
 					<span class="ltx-btn-overlay ltx-btn-overlay-top"></span><span class="ltx-btn-overlay ltx-btn-overlay-bottom"></span></button></span>
 				</div>
 			</div>
 
 <?php
-include "insertar_s.php";
+include "insertar_a.php";
 get_footer();
 ?>

@@ -1,0 +1,170 @@
+2021-08-02T12:26:36+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\lavamania\wp-content\plugins\unyson\framework\helpers\fw-storage.php en la línea 1
+
+2021-08-02T12:28:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\lavamania\wp-content\plugins\optinmonster\OMAPI\Blocks.php en la línea 12
+
+2021-08-02T12:30:26+00:00 CRITICAL Uncaught Error: Call to undefined function wcs_get_subscriptions() in C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php:174
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(292): Subscription_Payu_Latam_SPL_Plugin->update_status_subscriptions()
+#1 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\lavamania\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lavamania\wp-cron.php(138): do_action_ref_array('subscription_pa...', Array)
+#4 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php en la línea 174
+
+2021-08-02T12:30:59+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\lavamania\wp-includes\Requests\Transport\cURL.php en la línea 163
+
+2021-08-02T12:31:45+00:00 CRITICAL Uncaught Error: Class 'WC_Subscriptions_Cart' not found in C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-gateway-subscription-payu-latam.php:162
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(292): WC_Payment_Subscription_Payu_Latam_SPL->disable_non_subscription(Array)
+#1 C:\xampp\htdocs\lavamania\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\OnboardingPayments.php(38): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\NoteTraits.php(82): Automattic\WooCommerce\Admin\Notes\OnboardingPayments::get_note()
+#5 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\packages\woocommerce-admin en C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-gateway-subscription-payu-latam.php en la línea 162
+
+2021-08-02T12:32:26+00:00 CRITICAL Uncaught Error: Call to a member function fetchAll() on bool in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\mostrar_a.php:4
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_automovil.php(6): include()
+#1 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\mostrar_a.php en la línea 4
+
+2021-08-02T12:41:43+00:00 CRITICAL Uncaught Error: Call to undefined function wcs_get_subscriptions() in C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php:174
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(292): Subscription_Payu_Latam_SPL_Plugin->update_status_subscriptions()
+#1 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\lavamania\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lavamania\wp-cron.php(138): do_action_ref_array('subscription_pa...', Array)
+#4 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php en la línea 174
+
+2021-08-02T12:58:43+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php:93
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php en la línea 93
+
+2021-08-02T12:59:49+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php:93
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php en la línea 93
+
+2021-08-02T12:59:55+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php:93
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php en la línea 93
+
+2021-08-02T13:00:05+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php:93
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php en la línea 93
+
+2021-08-02T13:00:39+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php:92
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php en la línea 92
+
+2021-08-02T13:01:40+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php:95
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php en la línea 95
+
+2021-08-02T13:01:47+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php:95
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php en la línea 95
+
+2021-08-02T13:02:36+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php:95
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php en la línea 95
+
+2021-08-02T13:02:50+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php:94
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php en la línea 94
+
+2021-08-02T13:15:55+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php:95
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php en la línea 95
+
+2021-08-02T13:16:02+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php:95
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php en la línea 95
+
+2021-08-02T13:16:56+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_automovil.php:113
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_automovil.php en la línea 113
+
+2021-08-02T13:17:10+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_automovil.php:113
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_automovil.php en la línea 113
+
+2021-08-02T13:18:34+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_automovil.php:113
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_automovil.php en la línea 113
+
+2021-08-02T13:19:59+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_automovil.php:113
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_automovil.php en la línea 113
+
+2021-08-02T13:20:17+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_automovil.php:112
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_automovil.php en la línea 112
+

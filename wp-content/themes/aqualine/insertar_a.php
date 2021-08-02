@@ -3,13 +3,19 @@
 if(isset($_POST['insert'])){
 
     global $wpdb;
-    $n=$_POST['nombre'];
-    $d=$_POST['descripcion'];
+    $p=$_POST['placa'];
+    $m=$_POST['marca'];
+    $c=$_POST['color'];
+    $t=$_POST['tipo'];
+    $a=$_POST['ano'];
     $sql= $wpdb->insert(
-        'servicios',
+        'automoviles',
         array(
-            'nombre'=>$n,
-            'descripcion'=>$d,
+            'placa'=>$p,
+            'marca_id'=>$m,
+            'color'=>$c,
+            'vehiculo_id'=>$t,
+            'ano'=>$a,
         )
     );
 

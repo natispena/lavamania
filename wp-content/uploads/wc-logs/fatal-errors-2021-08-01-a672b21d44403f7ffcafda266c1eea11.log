@@ -65,3 +65,40 @@ Stack trace:
 #4 {main}
   thrown en C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php en la línea 174
 
+2021-08-01T03:41:31+00:00 CRITICAL Uncaught Error: Class 'WC_Subscriptions_Cart' not found in C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-gateway-subscription-payu-latam.php:162
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(292): WC_Payment_Subscription_Payu_Latam_SPL->disable_non_subscription(Array)
+#1 C:\xampp\htdocs\lavamania\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-customize.php(69): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(292): WC_Admin_Customize->register_customize_nav_menu_items(Array, 'woocommerce_nav', 'woocommerce en C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-gateway-subscription-payu-latam.php en la línea 162
+
+2021-08-01T03:42:07+00:00 CRITICAL Uncaught Error: Call to undefined function wcs_get_subscriptions() in C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php:174
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(292): Subscription_Payu_Latam_SPL_Plugin->update_status_subscriptions()
+#1 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\lavamania\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lavamania\wp-cron.php(138): do_action_ref_array('subscription_pa...', Array)
+#4 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php en la línea 174
+
+2021-08-01T03:49:54+00:00 CRITICAL Uncaught Error: Class 'WC_Subscriptions_Cart' not found in C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-gateway-subscription-payu-latam.php:162
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(292): WC_Payment_Subscription_Payu_Latam_SPL->disable_non_subscription(Array)
+#1 C:\xampp\htdocs\lavamania\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\lavamania\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\lavamania\wp-admin\nav-menus.p en C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-gateway-subscription-payu-latam.php en la línea 162
+
+2021-08-01T04:50:49+00:00 CRITICAL Uncaught Error: Call to undefined function wcs_get_subscriptions() in C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php:174
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(292): Subscription_Payu_Latam_SPL_Plugin->update_status_subscriptions()
+#1 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\lavamania\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lavamania\wp-cron.php(138): do_action_ref_array('subscription_pa...', Array)
+#4 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php en la línea 174
+
