@@ -1,0 +1,62 @@
+2021-08-03T15:54:46+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\lavamania\wp-includes\wp-db.php en la línea 2056
+
+2021-08-03T15:57:40+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\lavamania\wp-content\plugins\elementor\includes\controls\groups\image-size.php en la línea 4
+
+2021-08-03T15:57:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-duplicate-product.php en la línea 9
+
+2021-08-03T15:58:10+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\lavamania\wp-content\plugins\elementor\includes\fonts.php en la línea 4
+
+2021-08-03T15:58:11+00:00 CRITICAL Uncaught Error: Call to undefined function wcs_get_subscriptions() in C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php:174
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(292): Subscription_Payu_Latam_SPL_Plugin->update_status_subscriptions()
+#1 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\lavamania\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\lavamania\wp-cron.php(138): do_action_ref_array('subscription_pa...', Array)
+#4 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-subscription-payu-latam-plugin.php en la línea 174
+
+2021-08-03T15:58:35+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\lavamania\wp-content\plugins\essential-addons-for-elementor-lite\autoload.php en la línea 26
+
+2021-08-03T16:00:16+00:00 CRITICAL Uncaught Error: Class 'WC_Subscriptions_Cart' not found in C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-gateway-subscription-payu-latam.php:162
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\class-wp-hook.php(292): WC_Payment_Subscription_Payu_Latam_SPL->disable_non_subscription(Array)
+#1 C:\xampp\htdocs\lavamania\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(163): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\OnboardingPayments.php(38): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\NoteTraits.php(82): Automattic\WooCommerce\Admin\Notes\OnboardingPayments::get_note()
+#5 C:\xampp\htdocs\lavamania\wp-content\plugins\woocommerce\packages\woocommerce-admin en C:\xampp\htdocs\lavamania\wp-content\plugins\subscription-payu-latam\includes\class-gateway-subscription-payu-latam.php en la línea 162
+
+2021-08-03T16:01:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\lavamania\wp-includes\shortcodes.php en la línea 666
+
+2021-08-03T16:03:04+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php:95
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php en la línea 95
+
+2021-08-03T16:16:28+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php:96
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php en la línea 96
+
+2021-08-03T16:18:19+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php:94
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php en la línea 94
+
+2021-08-03T16:18:22+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php:94
+Stack trace:
+#0 C:\xampp\htdocs\lavamania\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\lavamania\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lavamania\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown en C:\xampp\htdocs\lavamania\wp-content\themes\aqualine\crud_valor.php en la línea 94
+
